@@ -7,6 +7,6 @@ def oxford_comma(array)
     array << end_word
     array.join(", ")
   else
-    return array
+    array.join
   end
 end
